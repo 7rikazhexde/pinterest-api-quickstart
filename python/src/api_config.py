@@ -7,7 +7,10 @@ import os  # for environment variables
 # the hard-coded port.
 DEFAULT_PORT = 8085
 DEFAULT_REDIRECT_URI = "http://localhost:" + str(DEFAULT_PORT) + "/"
+# Trial Access for read
 DEFAULT_API_URI = "https://api.pinterest.com"
+# Trial Access for  write and read
+DEFAULT_API_URI = "https://api-sandbox.pinterest.com"
 DEFAULT_OAUTH_URI = "https://www.pinterest.com"
 DEFAULT_LANDING_URI = "https://developers.pinterest.com/apps/"
 # OAuth tokens are in the current directory by default
